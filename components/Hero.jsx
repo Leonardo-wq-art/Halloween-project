@@ -36,7 +36,7 @@ const Hero = () => {
           md:items-end items-center justify-end '>
             <div className=' w-[256px]  h-[279px]'>
 <Image src="/home1-img.png" alt='Pumpkin'
- width="256" height="279" priority={true}
+ width="128" height="144" priority={true}
  className=' w-[256px] h-[279px]'  />
 </div>
 <div className="flex flex-col

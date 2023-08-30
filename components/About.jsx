@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex flex-col w-full  md:items-start items-center justify-center '>
           <div className='w-[256px]  h-[359px]'>
           <Image src="/about-img.png" alt='hero-banner' 
-          className=' pular w-[256px]  h-[359px]' width="256" height="359" />
+          className=' pular w-[256px]  h-[359px]'  width="128" height="192" />
           </div>
 
 
