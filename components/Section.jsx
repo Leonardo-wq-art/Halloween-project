@@ -16,7 +16,7 @@ md:grid-cols-2 grid-cols-1 items-center justify-center '>
     <div className=' flex flex-col items-center justify-center mx-10 my-5 '>
     <div className=' w-[256px]   h-[256px]'>
         <Image src="/category1-img.png"  alt='Pumpkins' 
-width="256" height="256"  className=' w-[256px]   h-[256px] transform hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
+width="128" height="128"  className=' w-[256px]   h-[256px] transform hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
 </div>
 <h1 className='text-white font-bold text-center'>Pumpkins
 </h1>
@@ -26,7 +26,7 @@ text-center'>You look at the scariest pumpkins there is.</p>
     <div className=' flex flex-col items-center justify-center mx-10 my-5 '>
     <div className=' w-[256px]   h-[256px]'>
         <Image src="/category2-img.png"   alt='Witch Hat' 
-width="256" height="256" className=' w-[256px]   h-[256px] transform hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
+width="128" height="128" className=' w-[256px]   h-[256px] transform hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
 </div>
 
 <h1 className='text-white font-bold text-center'>Witch Hat
@@ -37,7 +37,7 @@ text-center'>Pick the most stylish witch hats out there.</p>
     <div className=' flex flex-col items-center justify-center mx-10 my-5 aa'>
     <div className=' w-[256px]   h-[256px]'>
         <Image src="/category3-img.png"  alt='Ghosts' 
-width="256" height="256"  className=' w-[256px] 
+width="128" height="128"  className=' w-[256px] 
   h-[256px] transform hover:-translate-y-2 translate-y-0 aa
    text-red-300 block'/>
 </div>
