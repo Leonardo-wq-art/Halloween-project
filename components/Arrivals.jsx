@@ -21,7 +21,7 @@ const Arrivals = () => {
                   </div>
                   <div className=" w-[128px] h-[128px]">
                  <Image src={newOne} 
-    alt='Haunted House' width={50} heigh={50} className=' w-[128px] h-[128px]
+    alt='Haunted House' width={128} heigh={128} className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
   <h1 className='text-white font-bold text-center'>Haunted House
@@ -43,7 +43,7 @@ $20.99 <span className='text-orange-500 line-through text-xs'>$29.99 </span></p>
                  </div>
                  <div className=" w-[128px] h-[128px]">
                  <Image src={newTwo} 
-    alt='Halloween Candle' width={50} heigh={50} className=' w-[128px] h-[128px]
+    alt='Halloween Candle' width={128} heigh={128} className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
           
@@ -66,7 +66,7 @@ $9.99 <span className='text-orange-500 line-through text-xs'>$19.99 </span></p>
                  </div>
                  <div className=" w-[128px] h-[128px]">
                  <Image src={newThree} 
-    alt='Witch Hat' width={50} heigh={50} className=' w-[128px] h-[128px]
+    alt='Witch Hat' width={128} heigh={128} className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
    

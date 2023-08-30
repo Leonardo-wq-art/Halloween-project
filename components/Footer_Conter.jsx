@@ -13,13 +13,13 @@ const Footer_Conter = () => {
       <div className='w-[64px] h-[124px]'>            
         <Image src={footerOne} alt="Ghost"
          className=' pular w-full h-full'
-          width={31} height={617} /></div>
+          width={64} height={124} /></div>
 
       <div className='flex flex-col lg:items-start items-center justify-center my-10'>
     
         <div className='flex flex-row '   >
         <div className="w-[32px] h-[33px] ">
-            <Image src={logo} alt="skull-logo" width={16} height={19} 
+            <Image src={logo} alt="skull-logo" width={32} height={33} 
        className="w-[32px] h-[33px] "/>
         </div>
         <h1 className='text-white mx-3 lg:text-left text-center'>Halloween</h1>
@@ -67,7 +67,7 @@ Our Mision</li>
 <div className='w-[64px] h-[85px]'>            
         <Image src={footerTwo} alt="Ghost-two"
          className=' pular w-full h-full'
-          width={31} height={  617 } /></div>
+          width={64} height={85} /></div>
      </div>
      </>
   )

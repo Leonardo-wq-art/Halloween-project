@@ -7,7 +7,7 @@ const Discount = () => {
       lg:mx-auto mx-5 max-w-[915px] '>
         <div className="	w-[256px] h-[184px]">
         <Image src={DiscountImage} className=" w-[256px] h-[184px]" alt="Bats"
- width={110} height={11}/>
+ width={256} height={184}/>
         </div>
 
 <div className="flex flex-col items-center justify-center">
