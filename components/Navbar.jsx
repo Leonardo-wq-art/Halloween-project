@@ -1,19 +1,19 @@
 
 import Link from "next/link"
 import Image from "next/image";
-import logo from "@/public/logo.png"
+
 import Icons from "./Icons";
 const Navbar = () => {
  
   return (
 
-    <nav className=' flex items-center justify-center bg-gradient      '>
-      <div className="h-full w-full p-5 lg:w-[1250px]
-    flex flex-row justify-between items-center md:px-20 px-5">
+    <nav className='h-full w-full p-5 bg-gradient 
+    flex flex-row justify-between items-center md:px-20 px-5
+     '>
   <div className="flex flex-row items-center justify-center ">
     <div className="w-[32px] h-[33px] ">
       
-  <Image src={logo} alt="skull-logo" width={32} height={33} 
+  <Image src="/logo.png" alt="skull-logo" width="32" height="33"
    className="w-[32px] h-[33px] "/>
     </div>
 <h1 className="text-white  mx-3">
@@ -35,13 +35,12 @@ Halloween </h1>
     <li className="underline-animation text-white">
       <Link href="#New">New</Link>
     </li>
-    
-  </ul>
-  <button className="px-3 py-3 rounded-3xl border-white border  md:block hidden
+    <button className="px-3 py-3 rounded-3xl border-white border  md:block hidden
    v4"> <p className=" text-white font-bold">Support</p></button>
+  </ul>
 <Icons/>
 
-    </div>
+    
   </nav>
 
   );

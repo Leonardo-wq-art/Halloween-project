@@ -1,8 +1,6 @@
-import React from 'react'
+
 import Image from 'next/image'
-import newOne from "@/public/new1-img.png"
-import newTwo from "@/public/new2-img.png"
-import newThree from "@/public/new3-img.png"
+
 
 const Arrivals = () => {
   return (
@@ -20,8 +18,8 @@ const Arrivals = () => {
                   bg-orange-700 rounded-md p-1 m-10 text-white">New</div>
                   </div>
                   <div className=" w-[128px] h-[128px]">
-                 <Image src={newOne} 
-    alt='Haunted House' width={128} heigh={128} className=' w-[128px] h-[128px]
+                 <Image src="/new1-img.png" 
+    alt='Haunted House' width="128" height="128" className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
   <h1 className='text-white font-bold text-center'>Haunted House
@@ -42,8 +40,8 @@ $20.99 <span className='text-orange-500 line-through text-xs'>$29.99 </span></p>
                  bg-orange-700  rounded-md p-1 m-10 text-white">New</div>
                  </div>
                  <div className=" w-[128px] h-[128px]">
-                 <Image src={newTwo} 
-    alt='Halloween Candle' width={128} heigh={128} className=' w-[128px] h-[128px]
+                 <Image src="/new2-img.png"  
+    alt='Halloween Candle'  width="128" height="128" className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
           
@@ -65,8 +63,8 @@ $9.99 <span className='text-orange-500 line-through text-xs'>$19.99 </span></p>
                  bg-orange-700 rounded-md p-1 m-10 text-white">New</div>
                  </div>
                  <div className=" w-[128px] h-[128px]">
-                 <Image src={newThree} 
-    alt='Witch Hat' width={128} heigh={128} className=' w-[128px] h-[128px]
+                 <Image src="/new3-img.png" 
+    alt='Witch Hat'  width="128" height="128" className=' w-[128px] h-[128px]
      transform group-hover:-translate-y-2 translate-y-0 aa text-red-300 block'/>
                  </div>
    

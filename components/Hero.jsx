@@ -1,5 +1,4 @@
-import React from 'react'
-import home1 from  "@/public/home1-img.png"
+
 import Image from 'next/image'
 const Hero = () => {
   return (
@@ -36,11 +35,12 @@ const Hero = () => {
           relative flex-col w-full  h-full
           md:items-end items-center justify-end '>
             <div className=' w-[256px]  h-[279px]'>
-<Image src={home1} alt='Pumpkin'
- width={256} height={279} priority={true}
+<Image src="/home1-img.png" alt='Pumpkin'
+ width="256" height="279" priority={true}
  className=' w-[256px] h-[279px]'  />
 </div>
-<div className="flex flex-col items-center justify-center">
+<div className="flex flex-col
+ items-center justify-center">
   <div className="w-2 h-2 bg-white rounded-full"></div>
 <div className="w-[1px] h-10 bg-white"></div>
 </div>

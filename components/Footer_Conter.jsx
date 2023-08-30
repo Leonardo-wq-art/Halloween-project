@@ -1,8 +1,7 @@
-import React from 'react'
+
 import Image from "next/image";
-import logo from "@/public/logo.png"
-import footerOne from "@/public/footer1-img.png"
-import footerTwo from "@/public/footer2-img.png"
+
+
 
 const Footer_Conter = () => {
   return (
@@ -11,15 +10,15 @@ const Footer_Conter = () => {
     <div className='flex lg:flex-row flex-col items-center
      justify-between px-5 py-20'>
       <div className='w-[64px] h-[124px]'>            
-        <Image src={footerOne} alt="Ghost"
+        <Image src="/footer1-img.png" alt="Ghost"
          className=' pular w-full h-full'
-          width={64} height={124} /></div>
+          width="64" height="124" /></div>
 
       <div className='flex flex-col lg:items-start items-center justify-center my-10'>
     
         <div className='flex flex-row '   >
         <div className="w-[32px] h-[33px] ">
-            <Image src={logo} alt="skull-logo" width={32} height={33} 
+            <Image src="/logo.png" alt="skull-logo"  width="32" height="33"  
        className="w-[32px] h-[33px] "/>
         </div>
         <h1 className='text-white mx-3 lg:text-left text-center'>Halloween</h1>
@@ -65,9 +64,10 @@ Our Mision</li>
 
 </ul>
 <div className='w-[64px] h-[85px]'>            
-        <Image src={footerTwo} alt="Ghost-two"
+        <Image src="/footer2-img.png" alt="Ghost-two"
          className=' pular w-full h-full'
-          width={64} height={85} /></div>
+         width="64" height="124"
+       /></div>
      </div>
      </>
   )

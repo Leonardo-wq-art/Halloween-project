@@ -1,6 +1,6 @@
-import React from 'react'
+
 import Image from 'next/image'
-import about from "@/public/about-img.png"
+
 const About = () => {
   return (
     <section id="About" className='w-full h-full '>
@@ -31,9 +31,8 @@ const About = () => {
     
         <div className='flex flex-col w-full  md:items-start items-center justify-center '>
           <div className='w-[256px]  h-[359px]'>
-          <Image src={about} alt='hero-banner' 
-          className=' pular  w-full h-full' width={256}
-height={359} />
+          <Image src="/about-img.png" alt='hero-banner' 
+          className=' pular w-[256px]  h-[359px]' width="256" height="359" />
           </div>
 
 
