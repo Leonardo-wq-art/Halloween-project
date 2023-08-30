@@ -35,9 +35,10 @@ Halloween </h1>
     <li className="underline-animation text-white">
       <Link href="#New">New</Link>
     </li>
-    <button className="px-3 py-3 rounded-3xl border-white border  md:block hidden
-   v4"> <p className=" text-white font-bold">Support</p></button>
+   
   </ul>
+   <button className="px-3 py-3 rounded-3xl border-white border  md:block hidden
+   v4"> <p className=" text-white font-bold">Support</p></button>
 <Icons/>
 
     
